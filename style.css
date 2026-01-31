@@ -1,0 +1,549 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER FIXE */
+.site-header {
+    position: fixed;          /* RESTE EN HAUT */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+    height: 30px;
+}
+
+/* MENU */
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.top-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: 0.3s;
+}
+
+.top-nav a:hover::after {
+    width: 100%;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER FIXE */
+.site-header {
+    position: fixed;          /* RESTE EN HAUT */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+    height: 55px;
+}
+
+/* MENU */
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.top-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: 0.3s;
+}
+
+.top-nav a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    height: 75vh;
+    background: url("file:///C:/Users/vorte/Downloads/Combat%20%C3%A9pique%20entre%20jiu-jitsu%20et%20cr%C3%A9ature.png") center / cover no-repeat;
+    position: relative;
+    margin-top: 80px; /* IMPORTANT à cause du header fixe */
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.page-content {
+    padding: 100px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* PRIX - TARIFS */
+.pricing-section {
+    padding: 120px 20px;
+    text-align: center;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pricing-section h1 {
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* CARTE TARIFS */
+.pricing-card {
+    background: rgb(0, 0, 0);
+    width: 350px;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.pricing-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 25px;
+    padding-left: 0;
+}
+
+.pricing-card li {
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.extra {
+    font-size: 1.1rem;
+    color: #444;
+}
+/* HORAIRES */
+.schedule-section {
+    padding: 120px 20px;
+    text-align: center;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-card {
+    background: rgb(0, 0, 0);
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.schedule-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.schedule-card h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.schedule-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.schedule-card li {
+    padding: 12px 0;
+    border-bottom: 1px solid #ffffff;
+    font-size: 1.2rem;
+}
+/* ABOUT */
+.about-section {
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.about-card {
+    background: white;
+    max-width: 700px;
+    padding: 50px 40px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.about-card h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about-card li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 60px;
+}
+/* HERO CONTACT */
+.hero-contact {
+    background: url("https://images.unsplash.com/photo-1616419399950-c00b4fca8b15?fit=crop&w=1600&q=80") center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* overlay bleu clair */
+}
+
+.hero-contact .hero-content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* CONTACT CARD */
+.contact-section {
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.contact-card {
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.contact-card input,
+.contact-card textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-card button {
+    width: 100%;
+    padding: 15px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-card button:hover {
+    background: #005bb5;
+}
+/* ABOUT PAGE */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.about-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+.about-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #a00000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-card p {
+    font-size: 1.1rem;
+}
+
+.about-card ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.about-card ul li {
+    padding: 8px 0;
+}
+/* BOUTON CTA */
+.cta {
+    background-color: #d10000; /* Rouge vif */
+    color: white;
+    padding: 15px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* EFFET AU SURVOL */
+.cta:hover {
+    background-color: #ff2a2a; /* Rouge plus clair au survol */
+    transform: translateY(-5px) scale(1.05); /* Léger mouvement et zoom */
+}
+/* BOUTON CTA */
+.cta {
+    background-color: #d10000; /* Rouge vif */
+    color: white;
+    padding: 15px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* EFFET AU SURVOL */
+.cta:hover {
+    background-color: #ff2a2a; /* Rouge plus clair au survol */
+    transform: translateY(-5px) scale(1.05); /* Léger mouvement et zoom */
+}
+
+/* TITRE HERO AVEC EFFET DE LUMIERE */
+.hero-content h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Animation de lumière (glow) */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #000000, 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0);
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #000000, 0 0 30px #00000000, 0 0 40px #000000;
+    }
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #000000, 0 0 20px #383838, 0 0 30px #000000;
+    }
+}
+/* ESPACEMENT ENTRE TITRE ET BOUTON HERO */
+/* ===== BASE ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* ===== LOGO PRINCIPAL ===== */
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* ===== HERO ===== */
+.hero-content p {
+    margin: 30px 0 50px;
+}
+
+.hero-content .cta {
+    margin-top: 30px;
+}
+
+/* ===== SOCIAL ICONS (CLICABLES) ===== */
+.social-icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    z-index: 9999; /* AU-DESSUS DE TOUT */
+}
+
+.social-icons a {
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.social-icons img {
+    width: 70px;   /* GROS LOGOS */
+    height: 70px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* ===== IMPORTANT : EMPÊCHE LE HERO DE BLOQUER LES CLICS ===== */
+.hero,
+.hero::before,
+.hero::after {
+    pointer-events: none;
+}
+
+.hero {
+    height: 75vh;
+    background: url("file:///C:/Users/vorte/Downloads/Combat%20%C3%A9pique%20entre%20jiu-jitsu%20et%20cr%C3%A9ature.png") center / cover no-repeat;
+    position: relative;
+    margin-top: 80px; /* IMPORTANT à cause du header fixe */
+}
+.social-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 60px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.social-center a {
+    display: inline-block;
+}
+
+.social-center img {
+    width: 120px;     /* TRÈS GROS */
+    height: 120px;
+    cursor: pointer;
+}
