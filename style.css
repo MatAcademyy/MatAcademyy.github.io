@@ -285,15 +285,14 @@ footer {
     padding: 50px 20px;
     margin-top: 60px;
 }
-/* HERO CONTACT */
 .hero-contact {
-    background: url("https://images.unsplash.com/photo-1616419399950-c00b4fca8b15?fit=crop&w=1600&q=80") center/cover no-repeat;
-    height: 100vh;
+    background: url("images/combat-epique.png");
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .hero-contact::before {
     content: "";
