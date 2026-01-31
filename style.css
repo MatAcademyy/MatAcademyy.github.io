@@ -107,8 +107,7 @@
 
 .hero {
     height: 75vh;
-    background: url("file:///c%3A/Users/vorte/Local%20Sites/matacademy/app/public/Combat%20%C3%A9pique%20entre%20jiu-jitsu%20et%20cr%C3%A9ature.png") center / cover no-repeat;
-    position: relative;
+       background: url("../images/Combat-epique-jiu-jitsu.png") center / cover no-repeat;
     margin-top: 80px; /* IMPORTANT à cause du header fixe */
 }
 
@@ -286,7 +285,7 @@ footer {
     margin-top: 60px;
 }
 .hero-contact {
-    background: url("https://images.unsplash.com/photo-1616419399950-c00b4fca8b15?fit=crop&w=1600&q=80");
+    background: url("../images/Combat-epique-jiu-jitsu.png");
     position: relative;
     display: flex;
     align-items: center;
