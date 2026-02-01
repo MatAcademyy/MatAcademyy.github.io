@@ -107,7 +107,7 @@
 
 .hero {
     height: 75vh;
-     background-image: url("images/hero-bg.png") center / cover no-repeat;
+     background-image: url("hero-bg.png") center / cover no-repeat;
     margin-top: 80px; /* IMPORTANT à cause du header fixe */
 }c
 
