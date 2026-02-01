@@ -107,7 +107,7 @@
 
 .hero {
     height: 75vh;
-     background-image: url("hero-bg.png") center / cover no-repeat;
+     background-image: url("images/hero-bg.pnghero-bg.png") center / cover no-repeat;
     margin-top: 80px; /* IMPORTANT à cause du header fixe */
 }c
 
@@ -285,7 +285,7 @@ footer {
     margin-top: 60px;
 }
 .hero-contact {
-    background: url("images/hero-bg.png");
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOuUzjQ6zM4rem2tpJLo6QXGJhLrKwi93edg&s");
     position: relative;
     display: flex;
     align-items: center;
@@ -522,7 +522,7 @@ body {
 
 .hero {
     height: 75vh;
-    background: url("images/91f1626e.png") center / cover no-repeat;
+    background: url("hero-bg.png") center / cover no-repeat;
     position: relative;
     margin-top: 80px; /* IMPORTANT à cause du header fixe */
 }
